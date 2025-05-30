@@ -1,0 +1,87 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9" pages="2">
+  <diagram name="第 1 页" id="8iKcwP82M52nHCEYwAyX">
+    <mxGraphModel dx="788" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-4" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;App 生命周期场景描述：&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;1. 用户点击图标启动 App（冷启动）&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;2. 手动切换 App 到后台&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;3. 再切换回来到前台&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;4. 前台运行中被中断（如来电、弹出通知），再恢复&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;5. 最终用户手动杀死 App&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PFzJ3sC_wcOSiOslUiFB-5" target="PFzJ3sC_wcOSiOslUiFB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PFzJ3sC_wcOSiOslUiFB-5" target="PFzJ3sC_wcOSiOslUiFB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-5" value="用户点击图标启动 App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PFzJ3sC_wcOSiOslUiFB-6" target="PFzJ3sC_wcOSiOslUiFB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PFzJ3sC_wcOSiOslUiFB-6" target="PFzJ3sC_wcOSiOslUiFB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-6" value="用户按 Home / 切换 App" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PFzJ3sC_wcOSiOslUiFB-8" target="PFzJ3sC_wcOSiOslUiFB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PFzJ3sC_wcOSiOslUiFB-8" target="PFzJ3sC_wcOSiOslUiFB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-8" value="用户重新切回 App" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PFzJ3sC_wcOSiOslUiFB-10" target="PFzJ3sC_wcOSiOslUiFB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PFzJ3sC_wcOSiOslUiFB-10" target="PFzJ3sC_wcOSiOslUiFB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-10" value="App 前台运行，来电/系统打断" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="590" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-12" value="用户从后台杀死 App" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-14" value="&lt;div&gt;├─ application:willFinishLaunchingWithOptions&lt;/div&gt;&lt;div&gt;├─ application:didFinishLaunchingWithOptions&lt;/div&gt;&lt;div&gt;├─ applicationDidBecomeActive&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-17" value="├─ applicationWillResignActive&#xa;├─ applicationDidEnterBackground" style="whiteSpace=wrap;html=1;rounded=1;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-19" value="├─ applicationWillEnterForeground&#xa;├─ applicationDidBecomeActive" style="whiteSpace=wrap;html=1;rounded=1;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-20" value="├─ applicationWillResignActive&#xa;├─ （通话结束等恢复后）&#xa;├─ applicationDidBecomeActive" style="whiteSpace=wrap;html=1;rounded=1;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="580" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-21" value="├─ applicationWillTerminate (⚠️ 条件满足时, 系统崩溃不回执行此函数)" style="whiteSpace=wrap;html=1;rounded=1;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="720" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.635;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PFzJ3sC_wcOSiOslUiFB-12" target="PFzJ3sC_wcOSiOslUiFB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-27" value="[Not Running]&#xa;    ↓（冷启动）&#xa;[Inactive] ─→ [Active]&#xa;    ↑             ↓&#xa;（中断）     [Background]&#xa;    ↓             ↑&#xa;[Inactive] ←───────&#xa;    ↓&#xa;[Terminated]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="110" y="860" width="580" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="PFzJ3sC_wcOSiOslUiFB-28" value="可视化状态机" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="880" width="85" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nhnYGy3_ryz2kLsIczwa" name="第 2 页">
+    <mxGraphModel dx="1142" dy="1916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fcpwj_eohaff_aFIWPse-1" value="&lt;br&gt;&lt;br&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;启动方式&lt;/th&gt;&lt;th&gt;冷/热启动&lt;/th&gt;&lt;th&gt;特殊入口信息&lt;/th&gt;&lt;th&gt;生命周期调用情况&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1️⃣ 点击主屏幕 App 图标&lt;/td&gt;&lt;td&gt;冷 / 热启动&lt;/td&gt;&lt;td&gt;无&lt;/td&gt;&lt;td&gt;正常完整流程&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2️⃣ 点击桌面 Widget（小组件）&lt;/td&gt;&lt;td&gt;冷 / 热启动&lt;/td&gt;&lt;td&gt;有 &lt;code&gt;userActivity&lt;/code&gt; 或 &lt;code&gt;URL&lt;/code&gt;&lt;/td&gt;&lt;td&gt;标准生命周期 + 特殊场景处理&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3️⃣ 点击推送通知（本地 / 远程）&lt;/td&gt;&lt;td&gt;冷 / 热启动&lt;/td&gt;&lt;td&gt;通知内容 (&lt;code&gt;userInfo&lt;/code&gt;)&lt;/td&gt;&lt;td&gt;启动后处理通知回调&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4️⃣ 被其他 App 使用 URL Scheme 调起&lt;/td&gt;&lt;td&gt;冷 / 热启动&lt;/td&gt;&lt;td&gt;自定义 URL&lt;/td&gt;&lt;td&gt;调用 URL 打开方法&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5️⃣ 长按 App 图标的快捷菜单（Quick Action）&lt;/td&gt;&lt;td&gt;冷 / 热启动&lt;/td&gt;&lt;td&gt;&lt;code&gt;UIApplicationShortcutItem&lt;/code&gt;&lt;/td&gt;&lt;td&gt;生命周期 + 快捷项处理回调&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-1080" width="870" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
