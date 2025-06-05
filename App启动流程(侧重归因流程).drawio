@@ -1,0 +1,229 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram id="854QOBDu34SeeqSP9WUH" name="第 1 页">
+    <mxGraphModel dx="1535" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-1" target="g6xZaNZTCjz6P5wmpBm1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-1" value="App 启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-2" target="g6xZaNZTCjz6P5wmpBm1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-2" target="g6xZaNZTCjz6P5wmpBm1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-2" target="g6xZaNZTCjz6P5wmpBm1-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-2" value="各种通知监听&lt;div&gt;网络状态监听&lt;/div&gt;&lt;div&gt;友盟统计初始化&lt;/div&gt;&lt;div&gt;设备信息记录存储&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-4" target="g6xZaNZTCjz6P5wmpBm1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-4" value="&lt;div&gt;网络授权弹框&lt;/div&gt;并监听网络状态连通" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-6" value="申请通知权限弹框&lt;div&gt;申请 ATT 权限弹框&lt;/div&gt;&lt;div&gt;保存 ipv6 信息&lt;/div&gt;&lt;div&gt;注册微信授权&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="309" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-9" value="刷新用户信息&lt;div&gt;请求 Config&lt;/div&gt;&lt;div&gt;广告初始化+SplashAD&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;后台异步&lt;/h1&gt;&lt;div&gt;上述权限申请都在前台， 同时后台会执行下面的操作，通常情况下用户给完授权，后台任务也会执行完&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="230" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-23" target="g6xZaNZTCjz6P5wmpBm1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-23" value="设置 rootVC&lt;div&gt;（splashVC）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-25" target="g6xZaNZTCjz6P5wmpBm1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-29" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g6xZaNZTCjz6P5wmpBm1-28">
+          <mxGeometry x="-0.0353" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-25" target="g6xZaNZTCjz6P5wmpBm1-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-34" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g6xZaNZTCjz6P5wmpBm1-31">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-25" value="是否已经同意隐私条款" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-27" target="g6xZaNZTCjz6P5wmpBm1-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PbvT63Rpahnue6cJ6LSt-3" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g6xZaNZTCjz6P5wmpBm1-41">
+          <mxGeometry x="0.812" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-27" value="logo 动画 （2.1s）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="605" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-30" target="g6xZaNZTCjz6P5wmpBm1-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-30" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;b style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 0, 0);&quot; data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(255, 0, 0)&amp;quot;}&quot;&gt;我们的隐私弹框&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.025;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-30" target="g6xZaNZTCjz6P5wmpBm1-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="644" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-36" value="同意条款" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g6xZaNZTCjz6P5wmpBm1-35">
+          <mxGeometry x="-0.4407" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-37" value="服务&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;器归因(归因后API参数带渠道)&lt;/span&gt;&lt;div&gt;+&lt;br&gt;&lt;div&gt;&lt;div&gt;从新请求config&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="585" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;后台异步&lt;/h1&gt;&lt;div&gt;同意隐私之后，可确保 IDFA 完成&lt;/div&gt;&lt;div&gt;在此执行服务器归因 - 归因完成再重新请求 config - 根据真实 config 来决定是否展示新用户引导页面&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="505" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-43" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;动画完成（3.5s 等待归因 + config数据）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="710" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-54" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g6xZaNZTCjz6P5wmpBm1-50">
+          <mxGeometry x="-0.1333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-44" target="g6xZaNZTCjz6P5wmpBm1-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-53" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g6xZaNZTCjz6P5wmpBm1-52">
+          <mxGeometry x="-0.1556" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-44" value="&lt;div style=&quot;text-align: left;&quot;&gt;2. 新的 config 中 enableVipGuide&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;若归因流程失败则 config 不会更新&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1015" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-46" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="570" width="200" height="200" as="geometry">
+            <mxRectangle x="50" y="570" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-48" value="动画阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="568" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w5dWOPFv3xPD762dNHIt-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6xZaNZTCjz6P5wmpBm1-55" target="w5dWOPFv3xPD762dNHIt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-55" value="新用户引导" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-56" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;条件&lt;/h1&gt;&lt;div&gt;1. 首次激活 App (30s内)&lt;/div&gt;&lt;div&gt;2. 新的 config 中 enableVipGuide&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;若归因流程失败则 config 不会更新&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="923" width="190" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-58" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="720" as="sourcePoint" />
+            <mxPoint x="770" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6xZaNZTCjz6P5wmpBm1-59" value="归因流程为异步：可能存在超时失败 / 网络异常失败&lt;div&gt;超时失败：比如动画完成后3.5s 还没返回，则启动流程会继续执行， 不阻塞&lt;/div&gt;&lt;div&gt;网路异常：网不好直接归因失败，config 中依旧是旧数据&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="675" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w5dWOPFv3xPD762dNHIt-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w5dWOPFv3xPD762dNHIt-1" target="w5dWOPFv3xPD762dNHIt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w5dWOPFv3xPD762dNHIt-1" value="开屏广告 or 进首页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w5dWOPFv3xPD762dNHIt-2" value="首页加载完成时做一次归因补救（若此时还未归因成功，终止之前的，再执行一次服务端归因，反之不做处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1330" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w5dWOPFv3xPD762dNHIt-4" value="新用户引导购买VIP页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w5dWOPFv3xPD762dNHIt-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;说明&lt;/h1&gt;&lt;div&gt;这里弹 VIP 的引导购买弹框，实际是在首页弹出，引导页完成后做了个标记并直接进入的首页，首页根据标记展示的引导&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1010" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="w5dWOPFv3xPD762dNHIt-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="1060" as="sourcePoint" />
+            <mxPoint x="220" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w5dWOPFv3xPD762dNHIt-8" value="进首页(有引导，不展示广告）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w5dWOPFv3xPD762dNHIt-7">
+          <mxGeometry x="0.1306" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrdZGw_N1xKaBVsl6W-D-1" value="&lt;b style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 0, 0);&quot;&gt;当前在这里加了个超时异常上报 - 代表的是已经达到启动流程最大等待时间，但是归因流程仍旧没有完成&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MrdZGw_N1xKaBVsl6W-D-2" value="&lt;b style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 0, 0);&quot;&gt;当前在这里有不进入引导页上报，都是 config 中不展示，根据归因数据是否存在做了原因的说明&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1100" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PbvT63Rpahnue6cJ6LSt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PbvT63Rpahnue6cJ6LSt-1" target="w5dWOPFv3xPD762dNHIt-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="900" />
+              <mxPoint x="20" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PbvT63Rpahnue6cJ6LSt-5" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PbvT63Rpahnue6cJ6LSt-4">
+          <mxGeometry x="-0.027" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PbvT63Rpahnue6cJ6LSt-1" value="是否是首次激活&lt;div&gt;（30s）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="860" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PbvT63Rpahnue6cJ6LSt-7" value="&lt;font style=&quot;&quot;&gt;归因前后发统计， 记录开始和结果,失败原因也要详细&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="820" y="705" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PbvT63Rpahnue6cJ6LSt-10" value="这里加一个App启动时长统计" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="230" y="870" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PbvT63Rpahnue6cJ6LSt-11" value="归因所在节点不同，要针对场景上报" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1360" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
