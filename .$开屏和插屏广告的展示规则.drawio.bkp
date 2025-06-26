@@ -1,0 +1,199 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9" pages="2">
+  <diagram name="第 1 页" id="DvhZfWykAnwqZ632f6Nw">
+    <mxGraphModel dx="1501" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HKPZWTfdbsJV3AsxC-_P-1" target="HKPZWTfdbsJV3AsxC-_P-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-1" value="Splash" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HKPZWTfdbsJV3AsxC-_P-2" target="HKPZWTfdbsJV3AsxC-_P-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-18" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HKPZWTfdbsJV3AsxC-_P-5">
+          <mxGeometry x="0.025" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-2" value="会员" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HKPZWTfdbsJV3AsxC-_P-4" target="HKPZWTfdbsJV3AsxC-_P-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-19" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HKPZWTfdbsJV3AsxC-_P-7">
+          <mxGeometry x="-0.075" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-4" value="App 右键" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HKPZWTfdbsJV3AsxC-_P-6" target="HKPZWTfdbsJV3AsxC-_P-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HKPZWTfdbsJV3AsxC-_P-6" target="HKPZWTfdbsJV3AsxC-_P-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-20" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HKPZWTfdbsJV3AsxC-_P-11">
+          <mxGeometry x="-0.125" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-6" value="是否已经请求中" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="505" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-8" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: Menlo; color: rgb(93, 108, 121); background-color: rgb(255, 255, 255); text-align: start;&quot; class=&quot;p1&quot;&gt;网络不好时，开屏动画已经执行完，此时已经使用本地配置请求开屏，然后 networkhandler 回调触发加载开屏，可能会出现重复调用的情况&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="510" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HKPZWTfdbsJV3AsxC-_P-10" target="HKPZWTfdbsJV3AsxC-_P-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HKPZWTfdbsJV3AsxC-_P-10" target="HKPZWTfdbsJV3AsxC-_P-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-21" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HKPZWTfdbsJV3AsxC-_P-15">
+          <mxGeometry x="-0.325" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-10" value="是否已经请求完成" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="625" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-12" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: Menlo; color: rgb(93, 108, 121); background-color: rgb(255, 255, 255); text-align: start;&quot; class=&quot;p1&quot;&gt;开屏广告已经走过一次完成流程，即时失败也不做重试，App 网络不稳定重新连接的时候，可能出现此情况&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="635" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HKPZWTfdbsJV3AsxC-_P-14" target="HKPZWTfdbsJV3AsxC-_P-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-22" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HKPZWTfdbsJV3AsxC-_P-17">
+          <mxGeometry x="0.125" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-14" value="是否在两次展示间隔中" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HKPZWTfdbsJV3AsxC-_P-16" target="HKPZWTfdbsJV3AsxC-_P-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-27" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HKPZWTfdbsJV3AsxC-_P-24">
+          <mxGeometry x="-0.175" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-16" value="是否满足每天最大展示次数" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HKPZWTfdbsJV3AsxC-_P-23" target="HKPZWTfdbsJV3AsxC-_P-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-28" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HKPZWTfdbsJV3AsxC-_P-26">
+          <mxGeometry x="-0.0444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-23" value="是否展示每小时展示限制" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HKPZWTfdbsJV3AsxC-_P-25" value="请求开屏广告" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="I3QPIQcNXXC7rZCJ9WXx" name="第 2 页">
+    <mxGraphModel dx="1426" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LtF39vKYsrYd9h90_7ni-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtF39vKYsrYd9h90_7ni-1" target="LtF39vKYsrYd9h90_7ni-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-14" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LtF39vKYsrYd9h90_7ni-3">
+          <mxGeometry x="-0.0196" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtF39vKYsrYd9h90_7ni-1" value="插屏广告" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LtF39vKYsrYd9h90_7ni-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtF39vKYsrYd9h90_7ni-2" target="LtF39vKYsrYd9h90_7ni-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-15" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LtF39vKYsrYd9h90_7ni-5">
+          <mxGeometry x="-0.55" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtF39vKYsrYd9h90_7ni-2" value="会员" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LtF39vKYsrYd9h90_7ni-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtF39vKYsrYd9h90_7ni-4" target="LtF39vKYsrYd9h90_7ni-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-16" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LtF39vKYsrYd9h90_7ni-7">
+          <mxGeometry x="-0.4" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtF39vKYsrYd9h90_7ni-4" value="是否满足配置的展示间隔" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LtF39vKYsrYd9h90_7ni-6" target="LtF39vKYsrYd9h90_7ni-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-13" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfURLPBDjbBwW9CURUML-12">
+          <mxGeometry x="-0.0244" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtF39vKYsrYd9h90_7ni-6" value="是否是新用户" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtF39vKYsrYd9h90_7ni-8" target="PfURLPBDjbBwW9CURUML-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-10" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfURLPBDjbBwW9CURUML-9">
+          <mxGeometry x="-0.2501" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtF39vKYsrYd9h90_7ni-8" value="是否满足&lt;font style=&quot;color: rgb(255, 34, 78);&quot;&gt;场景&lt;/font&gt;间隔" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-1" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="199" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PfURLPBDjbBwW9CURUML-4" target="PfURLPBDjbBwW9CURUML-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-3" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfURLPBDjbBwW9CURUML-2">
+          <mxGeometry x="-0.175" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-4" value="是否满足每天最大展示次数" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="157" y="680.0047368421052" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PfURLPBDjbBwW9CURUML-7" target="PfURLPBDjbBwW9CURUML-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-6" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfURLPBDjbBwW9CURUML-5">
+          <mxGeometry x="-0.0444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-7" value="是否展示每小时展示限制" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="157" y="790.0047368421052" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PfURLPBDjbBwW9CURUML-8" value="请求开屏广告" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="137" y="910.0047368421052" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
